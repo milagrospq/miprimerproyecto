@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi proyecto CV WEB</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+    <div class="print-area">
+            <div class="header">
+                <img src="./Imagenes/persona.jpg" alt="no se pudo mostrar la imagen">
+                <div class="header-text">
+                  <h1>JUANITA PEREZ</h1>  
+                  <p>Graphic y Web Designer</p>  
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="left-area">
+                    <div class="contact">
+                        <h4>CONTACTO</h4>
+                        <h5>Teléfono</h5>
+                        <p>345-7896-5432</p>
+                        <h5>Email</h5>
+                        <p>juanitap@gmail.com</p>
+                        <h5>Dirección</h5>
+                        <p>Calle viva N°123</p>
+                    </div>
+                    <div class="skills">
+                        <h1>HABILIDADES</h1>
+                        <div class="bars">
+                            <div class="bar">
+                                <p>Photoshop</p>
+                                <span></span>
+                            </div>
+                            <div class="bar">
+                                <p>HTML/CSS</p>
+                                <span></span>
+                            </div>
+                            <div class="bar">
+                                <p>JavaScript</p>
+                                <span></span>
+                            </div>
+                            <div class="bar">
+                                <p>PHP</p>
+                                <span></span>
+                            </div>
+                            <div class="bar">
+                                <p>SQL</p>
+                                <span></span>
+                            </div>
+                            <div class="bar">
+                                <p>C++</p>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <h1>SEGUIME</h1>
+                        <h4>Facebook</h4>
+                        <p>facebook.com/username</p>
+                        <h4>Instagram</h4>
+                        <p>instagram.com/username</p>
+                        <h4>Twitter</h4>
+                        <p>twitter.com/username</p>
+                    </div>
+                </div>
+                <div class="right-area">
+                    <div class="about">
+                        <h1> <span> <i class="fa fa-user" style="font-size: 28px;"></i></span>
+                        SOBRE MI</h1>
+                        <p>Desarrollador web innovador, proactivo, 
+                            con capacidad para la creación de paginas web 
+                            elegantes y diseños de aplicaciones para 
+                            clientes exigentes.
+                            Durante mi trayectoria he podido aprender y perfeccionar conocimientos 
+                            que me han ayudado a construir un perfil específico. En la actualidad estoy 
+                            buscando un empleo en el que seguir ampliando mi experiencia y que 
+                            me permita asumir nuevas responsabilidades.</p>
+                    </div>
+                    <div class="languages">
+                        <h1> <span> <i class="fa fa-language" style="font-size: 25px;"></i></span>
+                            IDIOMAS</h1>
+                            <P>Español-nativo</P>
+                            <P>Italiano-nativo</P>
+                            <P>Inglés-nivel alto (C1)</P>
+                    </div>
+                    <div class="work">
+                        <h1> <span> <i class="fa fa-suitcase" style="font-size: 25px;"></i></span>
+                        EXPERIENCIA PROFESIONAL</h1>
+                         <div class="work-group">
+                            <h3>PROGRAMADOR WEB PHP</h3>
+                            <h4>Ubisoft, Barcelona</h4>
+                            <span>2020/actualidad</span>
+                            <p>Desarrollo de proyectos en PHP-MySQL, diseño front-end en HTML5, JQuery, Bootstrap y CSS3, 
+                               desarrollo de aplicaciones en JavaScript y HTML5 para móviles, desarrollo de aplicaciones interactivas en Ajax, 
+                               planificación de las tareas y cumplimiento de los objetivos</p>
+                         </div>
+                         <div class="work-group">
+                            <h3>WEB DEVELOPER (practicas)</h3>
+                            <h4>Buenos Aires, Argentina</h4>
+                            <span>2018/2020</span>
+                            <p>Programación en HTML y Javascript, cooperación con UX/UI y Backend, revisión de publicaciones,
+                                control de incidencias diariamente</p>
+                         </div>
+                         <div class="work-group">
+                            <h3>WEB DEVELOPER (a distancia)</h3>
+                            <h4>Buenos Aires, Argentina</h4>
+                            <span>2016/2018</span>
+                            <p>Rediseño de sitios web para mejorar la navegación y su atractivo visual. Creacion de páginas de destino,
+                                paneles de control y aplicaciones web utilizando Python, HTML5 y SQL. Validacion de códigos
+                            para una estructuración adecuada,seguridad y compatibilidad con diferentes buscadores, dispositivos o sistemas
+                            operativos</p>
+                         </div>
+                    </div>
+                    <div class="education">
+                        <h1> <span> <i class="fa fa-book" style="font-size: 25px;"></i></span>
+                        FORMACION ACADEMICA</h1>
+                        <div class="edu-group">
+                            <h3>Máster de Desarrollo de Sitios Web y Apps</h3>
+                            <h4>Universidad Autonomas de Buenos Aires</h4>
+                            <span>2016/2018</span>
+                         </div>
+                         <div class="edu-group">
+                            <h3>Grado en Ingeniería Informática</h3>
+                            <h4>Universidad Autonomas de Buenos Aires</h4>
+                            <span>2009/2015</span>
+                         </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>Imprimir CV</button>
+        <script src=".JS"></script>
+        <script>
+            var btn = document.querySelector("button");
+            btn.onclick =() =>{
+                window.print();
+            }
+        </script>
+    </body>
+</html>
